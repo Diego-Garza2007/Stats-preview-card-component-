@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+p { 
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 36px
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+}
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+
+
+
+.Carta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Carta-GT { 
+    width: 550px;
+    height: 446px;
+    background-color:  hsl(244, 38%, 16%);
+    color: #FFFFFF;
+    border-radius: 10px 0px 0px 10px;
+}
+
+
+
+.P {
+    color: hsl(277, 64%, 61%);
+}
+.Titulo {
+    margin: 50px 40px 40px 50px;
+}
+.Texto {
+    margin: 0px 120px 0px 50px;
+    line-height: 25px;
+}
+
+.Info {
+    display: flex;
+    margin: 80px 150px 0px 50px;
+    justify-content: space-around;
+    
+}
+.Info h2{
+    font-weight: bold;
+}
+.Info p{
+    font-weight: normal;
+}
+.Img-Escritorio {
+    display: flex;
+    width: 540px;
+    height: 446px;
+    background-image: url(./images/image-header-desktop.jpg);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.Color-D {
+    display: flex;
+    width: 540px;
+    height: 446px;
+    background-color: hsla(277, 56%, 45%, 0.7);
+    border-radius: 0px 10px 10px 0px;
+}
+.Img-Mobil {
+    display: none;
+}
+
+@media screen and (max-width:980px){
+
+
+    h1 {
+        font-size: 32px;
+    }
+    .Carta {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .Carta-GT {
+     width: 350px;
+     order: 2;
+     border-radius: 0px 0px 10px 10px;
+     height: auto;
+    }
+
+    .Img-Escritorio {
+        display: none;
+    }
+    .Titulo {
+        margin: 50px 10px 30px 10px;
+        text-align: center;
+    }
+    .Texto {
+        margin: 0px 45px 0px 45px;
+        text-align: center;
+    }
+    .Info {
+        display: inline-block;
+        margin: 40px 150px 0px 50px;
+    }
+
+    .Items-Info {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .Info-1 {
+        margin: 0px 10px 20px 80px;
+    }
+    .Info-2 {
+        margin: 0px 10px 20px 80px;
+    }
+    .Info-3 {
+        margin: 0px 10px 20px 80px;
+    }
+
+    .Img-Mobil {
+        display: flex;
+        width: 350px;
+        height: 275px;
+        background-image: url(./images/image-header-desktop.jpg);
+        border-radius: 10px 10px 0px 0px;
+        margin-top: 30px;
+    }
+    .Color-M {
+        display: flex;
+        width: 350px;
+        height: 275px;
+        background-color: hsla(277, 56%, 45%, 0.7);
+        border-radius: 10px 10px 0px 0px;
+    }
+}

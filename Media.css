@@ -1,0 +1,65 @@
+@media screen and (max-width:980px){
+
+
+    h1 {
+        font-size: 32px;
+    }
+    .Carta {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .Carta-GT {
+     width: 350px;
+     order: 2;
+     border-radius: 0px 0px 10px 10px;
+    }
+
+    .Img-Escritorio {
+        display: none;
+    }
+    .Titulo {
+        margin: 50px 10px 30px 10px;
+        text-align: center;
+    }
+    .Texto {
+        margin: 0px 45px 0px 45px;
+        text-align: center;
+    }
+    .Info {
+        display: inline-block;
+        margin: 40px 150px 0px 50px;
+    }
+
+    .Items-Info {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .Info-1 {
+        margin: 0px 10px 20px 80px;
+    }
+    .Info-2 {
+        margin: 0px 10px 20px 80px;
+    }
+    .Info-3 {
+        margin: 0px 10px 20px 80px;
+    }
+
+    .Img-Mobil {
+        display: flex;
+        width: 350px;
+        height: 275px;
+        background-image: url(./images/image-header-desktop.jpg);
+        border-radius: 10px 10px 0px 0px;
+        margin-top: 30px;
+    }
+    .Color-M {
+        display: flex;
+        width: 350px;
+        height: 275px;
+        background-color: hsla(277, 56%, 45%, 0.7);
+        border-radius: 10px 10px 0px 0px;
+    }
+}
